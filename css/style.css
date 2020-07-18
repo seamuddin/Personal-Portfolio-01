@@ -1,0 +1,253 @@
+ html {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    background: #fff;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    line-height: 1.45;
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+}
+
+.mt-5, .my-5 {
+    margin-top: 5rem !important;
+}
+.mt-6
+{
+    margin-top: 7rem !important;
+}
+.btn.btn-icon.btn-lg {
+    height: 3.6rem;
+min-width: 1.6rem;
+width: 3.6rem;
+font-size: 27px;
+}
+.h6
+{
+    font-size: 1rem;
+    line-height: 1.45;
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+}
+
+
+.nav-link {
+    font-size: 16px;
+}
+.navbar-brand
+{
+    width: 60%;
+}
+.profile-section .kitchen-sub-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    font-weight: 300;
+}
+
+.profile-section .kitchen-primary-title {
+    margin-top: 0;
+}
+
+#section-about {
+    padding-top: 80px;
+
+    background-image: url(../img/bg.jpg);
+    position: center;
+    background-origin: content-box;
+    background-position: fixed; 
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+
+}
+#about-me
+{
+     padding-top: 70px;
+}
+#skill-section
+{
+    padding-top: 50px;
+
+}
+
+.border-3{
+
+    border: 10px solid #dee2e6;
+
+    opacity: 0.9;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes border{
+
+    from{border: 10px solid rgba(0, 0, 0, 0);}
+    to{border: 10px solid #dee2e6;}
+}
+.progress-bar
+{
+    -webkit-transition: width .6s ease;
+     transition: width .6s ease;
+}
+.pbt-5
+{
+    padding-bottom: 85px;
+}
+.button-container
+{
+    margin-top: -30px;
+
+}
+.btn-default 
+{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+
+/*Portfolio*/
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+.activee
+{
+background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 80%;
+}
+.protfolio-img-title
+{
+    position: absolute;
+    margin: 230px 0px 0px -35px;
+    font-size: 17px;
+    color: black;
+}
+.border-4
+{
+    
+   
+   border-opacity: 0.3;
+   border: 13px solid  #94e587;
+   
+}
+.brd-color-2
+{
+    border-color:  #87e5b7 !important;
+}
+.brd-color-3
+{
+    border-color:  #87a9e5 !important;
+}
+.brd-color-4
+{
+    border-color:#e587bc !important;
+}
+.brd-color-5
+{
+    border-color:  #e58795 !important;  
+
+}
+.brd-color-4
+{
+    border-color:#da87e5 !important;
+}
+.gallery_product
+{
+   margin-bottom: 30px;
+    width: 365px;
+    overflow: visible;
+    
+}
+
+
+/*Portfolio*/
+/*responsive
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+        #margin{
+
+            margin-top: 0rem;
+        }
+
+}
+@media (min-width: 1200px) {
+        #margin{
+
+            margin-top: 0rem;
+        } }
+
+        responsive*/
+
+        /*Transition*/
+
+        .transition
+        {
+            transition-property: opacity,-webkit-transform;
+    transition-property: opacity,transform;
+    transition-property: opacity,transform,-webkit-transform;
+    transition-timing-function: ease;
+    transition-duration: .4s;
+        }
